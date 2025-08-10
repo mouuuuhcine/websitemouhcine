@@ -54,16 +54,9 @@
             100% { background-position: 100% 100%, 0% 0%, 20px 20px, -20px -20px; }
         }
 
-        /* Navigation */
+        /* Navigation - Supprimée */
         nav {
-            position: fixed;
-            top: 0;
-            width: 100%;
-            background: rgba(26, 26, 26, 0.95);
-            backdrop-filter: blur(10px);
-            z-index: 1000;
-            padding: 1rem 0;
-            border-bottom: 1px solid var(--border-color);
+            display: none;
         }
 
         nav ul {
@@ -111,7 +104,7 @@
             justify-content: center;
             text-align: center;
             position: relative;
-            background: linear-gradient(135deg, var(--bg-darker) 0%, var(--bg-dark) 100%);
+            background: transparent;
         }
 
         .hero-content h1 {
@@ -122,6 +115,13 @@
             background-clip: text;
             margin-bottom: 1rem;
             animation: glow 2s ease-in-out infinite alternate;
+        }
+
+        .hero-content {
+            background: transparent;
+            padding: 0;
+            border: none;
+            border-radius: 0;
         }
 
         @keyframes glow {
@@ -415,17 +415,6 @@
     </style>
 </head>
 <body>
-    <!-- Navigation -->
-    <nav>
-        <ul>
-            <li><a href="#home">Accueil</a></li>
-            <li><a href="#formation">Formation</a></li>
-            <li><a href="#competences">Compétences</a></li>
-            <li><a href="#langues">Langues</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-
     <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="hero-content">

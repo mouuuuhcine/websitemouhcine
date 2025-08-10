@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
@@ -418,7 +419,7 @@
     <section id="home" class="hero">
         <div class="hero-content">
             <h1>Mouhcine MAHBOUBI</h1>
-            <p>Étudiant Ingénieur en Génie Électrique | ENSEM Casablanca</p>
+            <p>Future Ingénieur en Génie Électrique | ENSEM Casablanca</p>
             <p>📍 Settat, Maroc</p>
         </div>
     </section>

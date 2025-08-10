@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
@@ -182,15 +181,7 @@
         }
 
         .section-title::after {
-            content: '';
-            position: absolute;
-            bottom: -10px;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 100px;
-            height: 3px;
-            background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
-            border-radius: 2px;
+            display: none;
         }
 
         /* Formation Timeline */
@@ -439,13 +430,6 @@
         <div class="hero-content">
             <h1>Mouhcine MAHBOUBI</h1>
             <p>Étudiant Ingénieur en Génie Électrique | ENSEM Casablanca</p>
-            <div class="tech-icons">
-                <div class="tech-icon">⚡</div>
-                <div class="tech-icon">🔧</div>
-                <div class="tech-icon">⚙️</div>
-                <div class="tech-icon">🔌</div>
-                <div class="tech-icon">💻</div>
-            </div>
             <p>📍 Settat, Maroc</p>
         </div>
     </section>
